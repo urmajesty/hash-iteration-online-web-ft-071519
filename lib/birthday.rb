@@ -10,7 +10,7 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
-  if "#{age} < 12
+  if " < 12
     puts happy_birthday(birthday_kids)
   else
     puts "You are too old for this"
