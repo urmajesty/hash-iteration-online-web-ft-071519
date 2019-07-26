@@ -10,4 +10,8 @@ def happy_birthday(birthday_kids)
 end
 end
 
-def age_appropriate_birthday()
+def age_appropriate_birthday(birthday_kids)
+  if |age| < 12
+    happy_birthday(birthday_kids)
+  else
+    puts "You are too old for this"
