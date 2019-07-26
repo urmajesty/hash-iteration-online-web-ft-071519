@@ -10,6 +10,8 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
-if birthday_kidsage} 
+if birthday_kids[age] > 12
+  puts
+  
 
 end
